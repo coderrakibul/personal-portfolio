@@ -15,12 +15,10 @@ const About = () => {
                         Hi! I'm Rakibul Islam. I'm a <strong class="text-color">React Front-End</strong> Web
                         Developer.
                     </h3>
-                    <h5> I am an enthusiastic software developer, having expertise in web application development. Highly interested in Web developmen
+                    <h5> I am an enthusiastic Web Developer, having expertise in web application development, javascript problem solving and mobile app development by React Native. But highly interested in web development.
                         <br /><br />
 
-                        Then I learn frameworks and library of these. like, Bootstrap, Tailwind CSS, React
-                        JS. I have made a lot of demo projects with this. I have also knowledge about these
-                        technologies. Such as, MongoDB, Node JS, Express JS and Next JS.</h5>
+                        The creation of this portfolio provided me with a chance to reflect on both my technical skills and my professional skills in several years. As you browse around, I hope that you are able to gain a strong sense about me. Each section of this portfolio represents a small piece of information that reflects who I am and what I am capable of.</h5>
                 </div>
             </div>
         </section>
