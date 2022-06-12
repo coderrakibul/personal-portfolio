@@ -5,7 +5,7 @@ const Footer = () => {
 	const year = date.getFullYear();
 
 	return (
-		<footer className='bg-dark text-white'>
+		<footer className='bg-dark text-white py-4'>
 			<div className='py-4'>
 				<div className="d-flex justify-content-around container">
 					<div className='d-flex flex-column justify-content-center'>
@@ -32,7 +32,7 @@ const Footer = () => {
 				</div>
 			</div>
 
-			<p className='text-center py-2 mt-1'>Copyright &copy; All rights are reserved | {year}</p>
+			<p className='text-center py-3 mt-1 mb-0 pb-5'>Copyright &copy; All rights are reserved | {year}</p>
 		</footer>
 	);
 };
