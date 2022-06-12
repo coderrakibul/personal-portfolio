@@ -83,7 +83,7 @@ const Footer = () => {
 				</div>
 			</div>
 
-			<p className='text-center py-3 mt-1 mb-0 pb-5'>Copyright &copy; All rights are reserved | {year}</p>
+			<p className='text-center py-3 mt-1 mb-0 pb-5'>Copyright &copy; Rakibul Islam, All Rights Are Reserved | {year}</p>
 		</footer>
 	);
 };
