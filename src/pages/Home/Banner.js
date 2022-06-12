@@ -3,7 +3,8 @@ import Image from '../../images/banner.png';
 
 const Banner = () => {
     return (
-        <div className='row d-flex g-0'>
+        <section className='mt-5 mb-5'>
+            <div className='row d-flex g-0'>
             <div className='col-lg-6 col-md-6 col-12 d-flex justify-content-center align-items-center'>
                 <div className='mb-5 mb-md-0 mb-lg-0'>
                     <h6 className='fw-bold'>Hi,</h6>
@@ -19,6 +20,7 @@ const Banner = () => {
             </div>
 
         </div>
+        </section>
     );
 };
 

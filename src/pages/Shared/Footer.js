@@ -27,6 +27,7 @@ const Footer = () => {
 						<span><a className="text-decoration-none text-white">Terms of use</a></span>
 						<span><a className="text-decoration-none text-white">Privacy policy</a></span>
 						<span><a className="text-decoration-none text-white">Cookie policy</a></span>
+						<span><a className="text-decoration-none text-white">policy</a></span>
 					</div>
 				</div>
 			</div>
