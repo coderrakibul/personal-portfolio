@@ -11,7 +11,7 @@ const Service = ({ service }) => {
                 </div>
                 <div className="card-body">
                     <h6>Price: <span className='text-color fw-bold'>${price}</span> | {amount}</h6>
-                    <button className='btn btn-primary w-100 fw-bold'>Show Details</button>
+                    <button className='btn btn-primary w-100 fw-bold'>Show More</button>
                 </div>
             </div>
         </div>
