@@ -1,6 +1,74 @@
 [
     {
         "id": 1,
-        "name": ""
+        "name": "PSD to HTML",
+        "image": "https://i.ibb.co/3NznG9k/psd.jpg",
+        "price": 50,
+        "amount": "According to your project this price can increase or decrease.",
+        "description": "I will convert your PSD file into HTML. This will be responsive for Mobile device, Tablet device and Desktop."
+    },
+    {
+        "id": 2,
+        "name": "Figma to HTML",
+        "image": "https://i.ibb.co/Q8VYXXt/figma.jpg",
+        "price": 50,
+        "amount": "According to your project this price can increase or decrease.",
+        "description": "I will convert your Figma file into HTML. This will be responsive for Mobile device, Tablet device and Desktop."
+    },
+    {
+        "id": 3,
+        "name": "Portfolio Website",
+        "image": "https://i.ibb.co/MGQtDzR/portfolio.jpg",
+        "price": 70,
+        "amount": "According to your project this price can increase or decrease.",
+        "description": "I will design for you a responsive portfolio webpage. Where there you can introduce yourself very perfectly."
+    },
+    {
+        "id": 4,
+        "name": "Landing Page",
+        "image": "https://i.ibb.co/3ftVVDc/landing.jpg",
+        "price": 70,
+        "amount": "According to your project this price can increase or decrease.",
+        "description": "I will design for you a responsive landing page. If your have already a design you can convert it into your prefered design."
+    },
+    {
+        "id": 5,
+        "name": "Responsive any Page",
+        "image": "https://i.ibb.co/6F1vyTn/responsive.jpg",
+        "price": 30,
+        "amount": "According to your project this price can increase or decrease.",
+        "description": "Responsive your webpage by Bootstrap, Tailwind CSS or Media Query."
+    },
+    {
+        "id": 6,
+        "name": "Single Page Application",
+        "image": "https://i.ibb.co/nwyNzpr/react-spa.jpg",
+        "price": 200,
+        "amount": "According to your project this price can increase or decrease.",
+        "description": "Make a faster webpage with ReactJS. This technology will make your website very faster and give a better UX."
+    },
+    {
+        "id": 7,
+        "name": "Full Stack Website",
+        "image": "https://i.ibb.co/Vw5Ms2J/web.jpg",
+        "price": 400,
+        "amount": "According to your project this price can increase or decrease.",
+        "description": "I will make for you a Full-Stack website. The Front-End will be design with ReactJS, Firebase Authentication, DaisyUI and others technology. The Backend will be create with NodeJS, ExpressJS and database MongoDB."
+    },
+    {
+        "id": 8,
+        "name": "E-commerce Website",
+        "image": "https://i.ibb.co/d2BZt67/ecommerce.jpg",
+        "price": 400,
+        "amount": "According to your project this price can increase or decrease.",
+        "description": "I will design for you an E-commerce Website, both client side with ReactJS and server side with NodeJS and database MongoDB."
+    },
+    {
+        "id": 9,
+        "name": "Bug Fixing",
+        "image": "https://i.ibb.co/58F0FXr/bugs.jpg",
+        "price": 40,
+        "amount": "According to your project this price can increase or decrease.",
+        "description": "I will fix yor javascript and react app bugs."
     }
 ]

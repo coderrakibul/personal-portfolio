@@ -4,7 +4,7 @@ import FaqImage from '../../images/faq.webp';
 
 const Faq = () => {
     return (
-        <section className='container mt-5 mb-5 '>
+        <section className='container mt-5 mb-5'>
             <h2 className='text-center mb-4'>Frequently Asked Question</h2>
             <div className='row d-flex justify-content-center g-0'>
                 <div className='col-12 col-md-6 col-lg-6 d-flex justify-content-center mb-5 mb-md-0 mb-lg-0'>
