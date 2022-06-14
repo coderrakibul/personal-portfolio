@@ -12,9 +12,9 @@ const Hire = () => {
                     <div className="card h-100 bg-light">
 
                         <div className="card-body text-center">
-                        <FontAwesomeIcon className='text-color fw-bold fs-1 mb-2' icon={faClock} />
+                            <FontAwesomeIcon className='text-color fw-bold fs-1 mb-2' icon={faClock} />
                             <h5 className="card-title">Hourly Rate</h5>
-                            <h4 className="card-text fw-bold">5$</h4>
+                            <h4 className="card-text fw-bold">7$</h4>
                         </div>
                     </div>
                 </div>
@@ -23,7 +23,7 @@ const Hire = () => {
                     <div className="card h-100 bg-light">
 
                         <div className="card-body text-center">
-                        <FontAwesomeIcon className='text-color fw-bold fs-1 mb-2' icon={faClock} />
+                            <FontAwesomeIcon className='text-color fw-bold fs-1 mb-2' icon={faClock} />
                             <h5 className="card-title">Per Day</h5>
                             <h4 className="card-text fw-bold">50$</h4>
                         </div>
@@ -33,8 +33,8 @@ const Hire = () => {
                 <div className="col">
                     <div className="card h-100 bg-light">
 
-                    <div className="card-body text-center">
-                    <FontAwesomeIcon className='text-color fw-bold fs-1 mb-2' icon={faClock} />
+                        <div className="card-body text-center">
+                            <FontAwesomeIcon className='text-color fw-bold fs-1 mb-2' icon={faClock} />
                             <h5 className="card-title">Per Month</h5>
                             <h4 className="card-text fw-bold">1200$</h4>
                         </div>
