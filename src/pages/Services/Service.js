@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Service = ({ service }) => {
-    const { name, image, price, amount, description } = service;
+    const { name, image, price, amount } = service;
     return (
         <div className="col g-4 shadow p-2">
             <div className="card h-100">
