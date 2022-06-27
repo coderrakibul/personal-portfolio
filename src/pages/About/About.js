@@ -4,7 +4,7 @@ import AboutImage from '../../images/aboutme.jpg';
 const About = () => {
     return (
         <section className='container mt-5 mb-5'>
-            <h2 className='text-center mb-4'>About Me</h2>
+            <h2 className='text-center mt-5 text-uppercase fw-bold mb-4'>About Me</h2>
             <div className='row row-cols-1 row-cols-md-2 row-cols-lg-2 align-items-center'>
                 <div className='col mb-5 mb-md-0 mb-lg-0 d-flex justify-content-center'>
                     <img className='rounded-circle w-75 shadow' src={AboutImage} alt="aboutme" />
