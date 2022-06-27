@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from 'react';
 import Loading from '../Shared/Loading';
-import Premium from './Premium';
+import Basic from './Basic';
 
-const Premiums = () => {
-    const [premiums, setPremiums] = useState([]);
+const Basics = () => {
+    const [basics, setBasics] = useState([]);
     const [loading, setLoading] = useState(false);
 
     useEffect(() => {
         setLoading(true);
-        fetch('premium.json')
+        fetch('basic.json')
             .then(res => res.json())
             .then(data => {
-                setPremiums(data)
+                setBasics(data)
                 setLoading(false)
             });
     }, []);
@@ -19,20 +19,19 @@ const Premiums = () => {
     if (loading) {
         return <Loading></Loading>
     }
-
     return (
         <section className='container mb-5'>
-            <h4 className='mt-5'>Best Projects (MERN Stack)</h4>
+            <h4 className='mt-5'>Basic Projects (HTML, CSS and Bootstrap)</h4>
             <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4">
                 {
-                    premiums.map(premium => <Premium
-                        key={premium.id}
-                        premium={premium}
-                    ></Premium>)
+                    basics.map(basic => <Basic
+                        key={basic.id}
+                        basic={basic}
+                    ></Basic>)
                 }
             </div>
         </section>
     );
 };
 
-export default Premiums;
+export default Basics;

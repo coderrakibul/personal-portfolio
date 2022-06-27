@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from 'react';
 import Loading from '../Shared/Loading';
-import Premium from './Premium';
+import Standard from './Standard';
 
-const Premiums = () => {
-    const [premiums, setPremiums] = useState([]);
+const Standards = () => {
+    const [standards, setStandards] = useState([]);
     const [loading, setLoading] = useState(false);
 
     useEffect(() => {
         setLoading(true);
-        fetch('premium.json')
+        fetch('standard.json')
             .then(res => res.json())
             .then(data => {
-                setPremiums(data)
+                setStandards(data)
                 setLoading(false)
             });
     }, []);
@@ -22,17 +22,17 @@ const Premiums = () => {
 
     return (
         <section className='container mb-5'>
-            <h4 className='mt-5'>Best Projects (MERN Stack)</h4>
+            <h4 className='mt-5'>Standard Projects (JavaScript & React JS)</h4>
             <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4">
                 {
-                    premiums.map(premium => <Premium
-                        key={premium.id}
-                        premium={premium}
-                    ></Premium>)
+                    standards.map(standard => <Standard
+                        key={standard.id}
+                        standard={standard}
+                    ></Standard>)
                 }
             </div>
         </section>
     );
 };
 
-export default Premiums;
+export default Standards;
