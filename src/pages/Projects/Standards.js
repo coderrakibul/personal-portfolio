@@ -21,8 +21,8 @@ const Standards = () => {
     }
 
     return (
-        <section className='container mb-5'>
-            <h4 className='mt-5'>Standard Projects (JavaScript & React JS)</h4>
+        <section className='container mb-5 border shadow p-4'>
+            <h4>Standard Projects (JavaScript & React JS)</h4>
             <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4">
                 {
                     standards.map(standard => <Standard

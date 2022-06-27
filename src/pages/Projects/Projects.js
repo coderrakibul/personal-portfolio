@@ -9,7 +9,7 @@ const Projects = () => {
 
     return (
         <div>
-            <h2 className='text-center mt-5 text-uppercase fw-bold'>Visit All The Projects</h2>
+            <h2 className='text-center mt-5 text-uppercase fw-bold mb-4'>Visit All The Projects</h2>
             <Premiums></Premiums>
             <Standards></Standards>
             <Basics></Basics>

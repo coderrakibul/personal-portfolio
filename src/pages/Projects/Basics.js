@@ -20,8 +20,8 @@ const Basics = () => {
         return <Loading></Loading>
     }
     return (
-        <section className='container mb-5'>
-            <h4 className='mt-5'>Basic Projects (HTML, CSS and Bootstrap)</h4>
+        <section className='container mb-5 border shadow p-4'>
+            <h4>Basic Projects (HTML, CSS and Bootstrap)</h4>
             <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4">
                 {
                     basics.map(basic => <Basic
