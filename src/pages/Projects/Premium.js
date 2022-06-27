@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Project = ({ project }) => {
-    const { name, image, url } = project;
+const Premium = ({premium}) => {
+    const { name, image, url } = premium;
     return (
         <div className="col g-4 shadow p-2">
             <div className="card h-100">
@@ -18,4 +18,4 @@ const Project = ({ project }) => {
     );
 };
 
-export default Project;
+export default Premium;
