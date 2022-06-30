@@ -9,7 +9,7 @@ const Banner = () => {
                     <div className='mb-5 mb-md-0 mb-lg-0'>
                         <h6 className='fw-bold'>Hi,</h6>
                         <h1 className=' display-1 fw-bold'>I'm <span className='text-color'>Rakibul</span></h1>
-                        <h3>Professional <span className='text-color '>Front-End </span> Developer</h3>
+                        <h3>Professional <span className='text-color fw-bold'>MERN STACK </span> Developer</h3>
                         <button className='btn btn-primary'><a className='text-white fw-bold text-decoration-none' href="Rakibul-Resume.pdf" download="Rakibul-Resume.pdf">Download Resume</a></button>
                     </div>
 

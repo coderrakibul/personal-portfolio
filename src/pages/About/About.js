@@ -12,7 +12,7 @@ const About = () => {
 
                 <div className='col'>
                     <h3 className="fw-bold">
-                        Hi! I'm Rakibul Islam. I'm a <strong className="text-color">React Front-End</strong> Web
+                        Hi! I'm Rakibul Islam. I'm a <strong className="text-color">MERN STACK</strong> Web
                         Developer.
                     </h3>
                     <h5> I am an enthusiastic Web Developer, having expertise in web application development, javascript problem solving, server-side development, and mobile app development. But highly interested in Client-Side web development.

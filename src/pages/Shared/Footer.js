@@ -51,6 +51,7 @@ const Footer = () => {
 
 					<div className='col d-flex flex-column mt-3'>
 						<span className='fw-bold fs-5 mb-1'>Projects</span>
+						<span><a href='https://panda-cm.web.app/' target="blank" className="text-decoration-none text-white">Panda Commerce</a></span>
 						<span><a href='https://doctors-portal-d95b1.web.app/' target="blank" className="text-decoration-none text-white">Doctors Portal</a></span>
 						<span><a href='https://warehouse-84aea.web.app/' target="blank" className="text-decoration-none text-white">Bike Corner</a></span>
 						<span><a href='https://parts-car-11705.web.app/' target="blank" className="text-decoration-none text-white">Car Parts</a></span>
