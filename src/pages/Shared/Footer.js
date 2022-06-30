@@ -67,17 +67,17 @@ const Footer = () => {
 
 					<div className='col d-flex flex-column mt-3'>
 						<span className='fw-bold fs-5 mb-1'>Social</span>
-						<span><a href='https://www.facebook.com/coder.rakibul' target="blank" className="text-decoration-none text-white"><FontAwesomeIcon className='me-2 text-color' icon={faFacebook} />Facebook</a></span>
-						<span><a href='https://www.linkedin.com/in/coderrakibul/' target="blank" className="text-decoration-none text-white"><FontAwesomeIcon className='me-2 text-color' icon={faLinkedin} />Linkedin</a></span>
-						<span><a href='https://join.skype.com/invite/vRYdJbWwVYXN' target="blank" className="text-decoration-none text-white"><FontAwesomeIcon className='me-2 text-color' icon={faSkype} />Skype</a></span>
-						<span><a href='https://github.com/coderrakibul' target="blank" className="text-decoration-none text-white"><FontAwesomeIcon className='me-2 text-color' icon={faGithub} />Github</a></span>
+						<span><a href='https://www.facebook.com/coder.rakibul' target="blank" className="text-decoration-none text-white"><FontAwesomeIcon className='me-2' icon={faFacebook} />Facebook</a></span>
+						<span><a href='https://www.linkedin.com/in/coderrakibul/' target="blank" className="text-decoration-none text-white"><FontAwesomeIcon className='me-2' icon={faLinkedin} />Linkedin</a></span>
+						<span><a href='https://join.skype.com/invite/vRYdJbWwVYXN' target="blank" className="text-decoration-none text-white"><FontAwesomeIcon className='me-2' icon={faSkype} />Skype</a></span>
+						<span><a href='https://github.com/coderrakibul' target="blank" className="text-decoration-none text-white"><FontAwesomeIcon className='me-2' icon={faGithub} />Github</a></span>
 					</div>
 
 					<div className='col d-flex flex-column mt-3'>
 						<span className='fw-bold fs-5 mb-1'>Contact</span>
-						<span className="text-decoration-none text-white"><FontAwesomeIcon className='me-2 text-color' icon={faPhone} />+880 1518-703413</span>
-						<span className="text-decoration-none text-white"><FontAwesomeIcon className='me-2 text-color' icon={faWhatsapp} />+880 1518-703413</span>
-						<span className="text-decoration-none text-white"><FontAwesomeIcon className='me-2 text-color' icon={faEnvelope} />coder.rakibul@gmail.com</span>
+						<span className="text-decoration-none text-white"><FontAwesomeIcon className='me-2' icon={faPhone} />+880 1518-703413</span>
+						<span className="text-decoration-none text-white"><FontAwesomeIcon className='me-2' icon={faWhatsapp} />+880 1518-703413</span>
+						<span className="text-decoration-none text-white"><FontAwesomeIcon className='me-2' icon={faEnvelope} />coder.rakibul@gmail.com</span>
 					</div>
 
 				</div>
