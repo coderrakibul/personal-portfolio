@@ -3,7 +3,7 @@ import React from 'react';
 const More = () => {
     return (
         <section className='container mt-5 mb-5'>
-            <h2 className='text-center text-uppercase'>About Me</h2>
+            <h2 className='text-center text-uppercase fw-bold'>About Me</h2>
 
             <div className='col'>
                 <h3 className="fw-bold">
