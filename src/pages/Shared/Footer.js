@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
-import { faFacebook, faGithub, faLinkedin, faSkype, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faTwitter, faGithub, faLinkedin, faSkype, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
 	const date = new Date();
@@ -68,6 +68,7 @@ const Footer = () => {
 					<div className='col d-flex flex-column mt-3'>
 						<span className='fw-bold fs-5 mb-1'>Social</span>
 						<span><a href='https://www.facebook.com/coder.rakibul' target="blank" className="text-decoration-none text-white"><FontAwesomeIcon className='me-2' icon={faFacebook} />Facebook</a></span>
+						<span><a href='https://twitter.com/coderrakibul' target="blank" className="text-decoration-none text-white"><FontAwesomeIcon className='me-2' icon={faTwitter} />Twitter</a></span>
 						<span><a href='https://www.linkedin.com/in/coderrakibul/' target="blank" className="text-decoration-none text-white"><FontAwesomeIcon className='me-2' icon={faLinkedin} />Linkedin</a></span>
 						<span><a href='https://join.skype.com/invite/vRYdJbWwVYXN' target="blank" className="text-decoration-none text-white"><FontAwesomeIcon className='me-2' icon={faSkype} />Skype</a></span>
 						<span><a href='https://github.com/coderrakibul' target="blank" className="text-decoration-none text-white"><FontAwesomeIcon className='me-2' icon={faGithub} />Github</a></span>
